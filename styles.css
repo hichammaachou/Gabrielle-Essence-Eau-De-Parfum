@@ -101,7 +101,7 @@ svg{
         width: 95vw;
     }
     .img{
-        height: 50vw;
+        height: 100vw;
         width: auto;
         background-image: url(images/image-product-mobile.jpg);
         background-position: center;
