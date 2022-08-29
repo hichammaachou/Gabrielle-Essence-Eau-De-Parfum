@@ -18,7 +18,8 @@ html, body{
 .product-container{
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
-    height: 31rem;
+    height: 60vh;
+    width: 40vw;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
@@ -29,7 +30,7 @@ html, body{
     flex-direction: column;
     justify-content: center;
     margin-bottom: 10px;
-    width: 18rem;
+    width: 20vw;
     padding: 2.8rem;
 }
 h6{
