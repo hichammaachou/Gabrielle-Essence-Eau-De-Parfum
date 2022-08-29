@@ -18,19 +18,24 @@ html, body{
 .product-container{
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
-    height: 60vh;
-    width: 40vw;
+    height: 70%;
+    width: 60%;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
     
+}
+.img{
+    width: 70vw;
+    background-image: url(images/image-product-desktop.jpg);
+    background-position: center;
+    background-size: cover;
 }
 .description{
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 10px;
-    width: 20vw;
     padding: 2.8rem;
 }
 h6{
@@ -86,4 +91,20 @@ button:focus{
 }
 svg{
     margin-right: 12px;
+}
+@media all and (max-width : 700px){
+    .product-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 95vh;
+        width: 95vw;
+    }
+    .img{
+        height: 50vw;
+        width: auto;
+        background-image: url(images/image-product-mobile.jpg);
+        background-position: center;
+        background-size: cover;
+    }    
 }
