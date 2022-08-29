@@ -95,7 +95,6 @@ svg{
 @media all and (max-width : 700px){
     .product-container{
         display: flex;
-        justify-content: center;
         flex-direction: column;
         height: 95vh;
         width: 95vw;
